@@ -1,0 +1,19 @@
+name: SQL CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1
+
+    - name: Build Project
+      run: msbuild SqlCICDProject/SqlCICDProject.sqlproj
