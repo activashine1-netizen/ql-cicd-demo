@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="SqlCICDProject/SqlCICDProject.sqlproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>

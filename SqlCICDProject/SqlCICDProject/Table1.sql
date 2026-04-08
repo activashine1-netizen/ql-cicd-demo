@@ -1,0 +1,4 @@
+﻿CREATE TABLE Users (
+    Id INT PRIMARY KEY,
+    Name NVARCHAR(100)
+);
