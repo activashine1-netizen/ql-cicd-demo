@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="SqlCICDProject/SqlCICDProject.sqlproj">
+  <Project Path="SqlCICDProject/SqlCICDProject.sqlproj" Id="1881ebd3-3063-44e5-bc96-e61591aa8a3f">
     <Build />
     <Deploy />
   </Project>

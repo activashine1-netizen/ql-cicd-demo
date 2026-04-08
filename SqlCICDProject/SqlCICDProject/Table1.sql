@@ -1,4 +1,4 @@
-﻿CREATE TABLE Users (
-    Id INT PRIMARY KEY,
-    Name NVARCHAR(100)
+﻿CREATE TABLE [dbo].[Users] (
+    [Id] INT NOT NULL PRIMARY KEY,
+    [Name] NVARCHAR(100) NULL
 );
