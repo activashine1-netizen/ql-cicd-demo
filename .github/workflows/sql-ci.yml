@@ -16,4 +16,4 @@ jobs:
       uses: microsoft/setup-msbuild@v1
 
     - name: Build Project
-      run: msbuild SqlCICDProject/SqlCICDProject.sqlproj
+      run: msbuild SqlCICDProject/SqlCICDProject/SqlCICDProject.sqlproj
